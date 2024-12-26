@@ -7,7 +7,7 @@
       <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">{{$post['title']}}</h2>
  
     <div class="text-gray-500 text-base">
-      <a href"#">{{$post ['author']}}</a> | 25 December 2024
+      <a href"#">{{$post ['author']}}</a> | {{$post['created_at']->format('j F, Y')}}
     </div>
 
     <p class="my-4 font-light">
